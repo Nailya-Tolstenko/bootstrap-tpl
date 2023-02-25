@@ -1,42 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap'); 
-
-body {
-    font-family: Michroma, serif;
-    background: linear-gradient(90deg, rgba(3, 3, 129, 0.96) 0%, #0e0d0d 100%);
-} 
-
-.nav-link {
-    color:aquamarine;
+.navbar-light .navbar-nav .nav-link {
+    color: aquamarine;
 }
 
-.nav-link.active {
-    color:rgb(143, 142, 143);
+.navbar-light .navbar-nav .nav-link.active {
+    color:rgb(142, 146, 145);
 }
 
 .navbar-brand img {
     width: 40px;
 }
 
-.navbar-toggler {
-    background-color: rgb(143, 142, 143);
-}
-
-.sidebar {
-    color:aquamarine;
-    background: linear-gradient(270deg, rgba(3, 3, 129, 0.96) 0%, #0e0d0d 100%);
-}
-
-.card {
-    background: linear-gradient(270deg, rgba(3, 3, 129, 0.96) 0%, #0e0d0d 100%);
-    color:aquamarine;
-}
-
-.card a {
-    text-decoration: none;
-    color:aquamarine;
-}
-
-.slide text {
-    color:aquamarine;
-    margin: auto auto;
+.navbar-light .navbar-toggler {
+    color:rgb(142, 146, 145);
 }
